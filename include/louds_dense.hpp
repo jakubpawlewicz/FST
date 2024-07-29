@@ -179,7 +179,7 @@ class LoudsDense {
 
  private:
   static const position_t kNodeFanout = 256;
-  static const position_t kRankBasicBlockSize = 512;
+  static constexpr position_t kRankBasicBlockSize = 512;
 
   std::vector<uint64_t> keys_values_dense_;
 

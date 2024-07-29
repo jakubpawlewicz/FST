@@ -181,8 +181,8 @@ class LoudsSparse {
                                 LoudsSparse::Iter &iter) const;
 
  private:
-  static const position_t kRankBasicBlockSize = 512;
-  static const position_t kSelectSampleInterval = 64;
+  static constexpr position_t kRankBasicBlockSize = 512;
+  static constexpr position_t kSelectSampleInterval = 64;
 
   std::vector<uint64_t> positions_sparse;
 
